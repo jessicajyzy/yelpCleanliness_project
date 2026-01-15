@@ -4,9 +4,21 @@
 This project analyzes the relationship between neighborhood cleanliness and Yelp restaurant ratings by linking Yelp review data with Philadelphia 311 sanitation complaint records.
 
 ## Data
-- Yelp business and review data
-- Philadelphia 311 service request data
-Data sources are publicly available and are not included in this repository due to size and licensing considerations.
+
+This project uses three primary data sources.
+
+- Yelp Open Dataset including business metadata and reviews
+- Philadelphia 311 Service Request data
+- Philadelphia neighborhood boundary geospatial data
+
+All data sources are publicly available and are not included in this repository due to size and licensing considerations.
+
+To reproduce the analysis:
+
+1. Download the Yelp Open Dataset from https://www.yelp.com/dataset
+2. Download Philadelphia 311 service request data from the City of Philadelphia Open Data Portal
+3. Download Philadelphia neighborhood boundary shapefiles from the City of Philadelphia Open Data Portal
+4. Place the extracted files into a local `data/` directory following the structure referenced in the notebooks
 
 ## Methodology
 - Entity linking between restaurants and neighborhood polygons
