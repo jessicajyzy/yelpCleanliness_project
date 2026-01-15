@@ -1,5 +1,3 @@
-# yelpCleanliness_project
-
 # Yelp + 311 Neighborhood Cleanliness Analysis
 
 ## Overview
