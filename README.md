@@ -1,4 +1,4 @@
-# Yelp + 311 Neighborhood Cleanliness Analysis
+# Urban Sanitation Impact on Restaurant Reviews
 
 ## Overview
 This project analyzes the relationship between neighborhood cleanliness and Yelp restaurant ratings by linking Yelp review data with Philadelphia 311 sanitation complaint records. This analysis integrates over 600,000 Yelp reviews with multi year Philadelphia 311 sanitation records using geospatial entity linking.
